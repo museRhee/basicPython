@@ -1,17 +1,23 @@
+#input the number of fruits
 appleNum = int(input("Number of aaple? "))
 grapeNum = int(input("Number of grape? "))
 pearNum = int(input("Number of pear? "))
 orangeNum = int(input("Number of orange? "))
 
+#price of fruits
 appleP = 1000
 grapeP = 3000
 pearP = 2000
 orangeP = 500
 
-totalP = appleNum*appleP + grapeNum*grapeP + pearNum*pearP + orangeNum*orangeP
+#total price
+totalP = (appleNum*appleP + grapeNum*grapeP +
+          pearNum*pearP + orangeNum*orangeP)
 
+#get a discount when grapeNum>=3
 if (grapeNum >= 3):
-    totalP = int(totalP*0.9)
+    totalP = totalP*0.9
 
-print("Total price is ", totalP, sep="")
+#print total price
+print("Total price is ", int(totalP), sep="")
                       
