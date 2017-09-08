@@ -1,12 +1,17 @@
-pencilNum = int(input("The number of pencil? "))
-penNum = int(input("The number of pen? "))
+appleNum = int(input("Number of aaple? "))
+grapeNum = int(input("Number of grape? "))
+pearNum = int(input("Number of pear? "))
+orangeNum = int(input("Number of orange? "))
 
-pencilP = 1000
-penP = 2000
-totalP = pencilNum*pencilP + penNum*penP
+appleP = 1000
+grapeP = 3000
+pearP = 2000
+orangeP = 500
 
-if (totalP>=10000):
+totalP = appleNum*appleP + grapeNum*grapeP + pearNum*pearP + orangeNum*orangeP
+
+if (grapeNum >= 3):
     totalP = int(totalP*0.9)
 
-print("Total price is ", totalP, "won", sep="" )
-
+print("Total price is ", totalP, sep="")
+                      
