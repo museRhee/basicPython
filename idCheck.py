@@ -9,5 +9,3 @@ elif len(password) > 10 :
     print("register failure: pw length is over 10char")
 else :
     print("successfully register")
-
-        
