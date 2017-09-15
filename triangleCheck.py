@@ -27,6 +27,6 @@ if (sideBig < sideSec+sideThr) :            #if triangle
         print("right-angled triangle")
     else :
         print("normal triangle")
-else :
-    print("not triangle")                   #if not triangle
+else :                                      #if not triangle
+    print("not triangle")                   
     
