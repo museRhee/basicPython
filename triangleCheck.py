@@ -12,7 +12,7 @@ elif (sideB>=sideA and sideB>=sideC) :
     sideBig = sideB
     sideSec = sideA
     sideThr = sideC
-else :
+elif (sideC>=sideA and sideC>=sideB) :
     sideBig = sideC
     sideSec = sideA
     sideThr = sideB
@@ -23,7 +23,7 @@ if (sideBig < sideSec+sideThr) :            #if triangle
         print("regular triangle")
     elif (sideBig == sideSec or sideBig == sideThr or sideSec == sideThr) :
         print("isosceles triangle")
-    elif (sideBig^2 == sideSec^2 + sideThr^2) :
+    elif (sideBig**2 == sideSec**2 + sideThr**2) :
         print("right-angled triangle")
     else :
         print("normal triangle")
