@@ -1,3 +1,10 @@
+'''
+input subject score and print whether passed or failure.
+passed: each score must 60 or above and average score 70 or above.
+'''
+
+
+
 #input subject score
 aScore = int(input("Score of A? "))
 bScore = int(input("Score of B? "))
