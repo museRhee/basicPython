@@ -1,3 +1,8 @@
+'''
+input the length of each side of triangle
+and print the type of triangle. 
+'''
+
 #input length of each side
 sideA = int(input("length of 1sd side "))
 sideB = int(input("length of 2nd side "))
@@ -28,5 +33,4 @@ if (sideBig < sideSec+sideThr) :            #if triangle
     else :
         print("normal triangle")
 else :                                      #if not triangle
-    print("not triangle")                   
-    
+    print("not triangle")                    
