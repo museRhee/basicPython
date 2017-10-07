@@ -1,3 +1,7 @@
+'''
+input second and change it to hour, minute and second.
+'''
+
 #input time by second
 time = int(input("Enter the second : "))
 
