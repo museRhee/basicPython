@@ -1,3 +1,8 @@
+'''
+Input the number of fruits and print total price.
+if the number of grapes over 3 or more, 10% discount.
+'''
+
 #input the number of fruits
 appleNum = int(input("Number of aaple? "))
 grapeNum = int(input("Number of grape? "))
