@@ -1,3 +1,8 @@
+'''
+input id, pw and print message.
+if id, pw are both over 10char, print error message. 
+'''
+
 #input id, password
 idName = input("id? ")
 password = input("password? ")
